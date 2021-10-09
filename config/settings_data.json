@@ -1,588 +1,682 @@
 {
   "current": {
-    "color_primary": "#554e6e",
-    "color_secondary": "#dcdcdc",
-    "color_accent": "#dd2525",
-    "color_body_bg": "#fff",
-    "color_borders": "#ececec",
-    "product_reviews_star_color": "#e5c649",
-    "color_header_background": "#554e6e",
-    "color_header_text": "#fff",
-    "color_header_cart_search": "#2d283f",
-    "color_nav_bg": "#554e6e",
-    "color_nav_text": "#ffffff",
-    "color_body_text": "#585858",
-    "color_heading_text": "#000",
-    "color_footer_bg": "#554e6e",
-    "color_footer_text": "#ffffff",
-    "color_footer_social_link": "#bbbbbb",
-    "type_base_font": "helvetica_n4",
-    "type_base_size": "15px",
-    "type_header_font": "helvetica_n4",
-    "type_header_transform": false,
-    "type_accent_font": "helvetica_n4",
-    "type_navigation_size": "16px",
-    "type_navigation_transform": true,
-    "type_button_size": "14px",
-    "type_button_transform": true,
-    "favicon": "shopify:\/\/shop_images\/favicon2.png",
-    "cart_notes_enable": true,
-    "ajax_cart_method": "modal",
+    "color_text": "#441c55",
+    "color_body_text": "#6d6d6d",
+    "color_sale_text": "#da2f0c",
+    "color_button": "#dc9200",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#162950",
+    "color_text_field_text": "#441c55",
+    "color_text_field_border": "#909090",
+    "color_text_field": "#f8f8f8",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#3d3d3d",
+    "image_overlay_opacity": 40,
+    "color_borders": "#e4e4e4",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "muli_n6",
+    "type_header_base_size": 26,
+    "type_base_font": "work_sans_n4",
+    "type_base_size": 18,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
     "social_twitter_link": "",
     "social_facebook_link": "https:\/\/www.facebook.com\/MoonDanceSoaps",
     "social_pinterest_link": "",
-    "social_google_plus_link": "",
     "social_instagram_link": "https:\/\/instagram.com\/moondancesoaps",
-    "social_snapchat_link": "",
     "social_tumblr_link": "",
+    "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "social_fancy_link": "",
-    "social_sharing_style": "is-normal",
-    "share_facebook": true,
-    "share_twitter": false,
-    "share_pinterest": false,
-    "superscript_decimals": false,
+    "favicon": "shopify:\/\/shop_images\/moondance_logo.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "medium",
+    "checkout_logo_size": "small",
     "checkout_body_background_image": "",
-    "checkout_body_background_color": "#fff",
+    "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_accent_color": "#197bbd",
-    "checkout_button_color": "#9abd20",
-    "checkout_error_color": "#e32c2b",
-    "collection_sidebar_filters": "tags",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#e8f3f6",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Source Sans Pro",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#23314e",
+    "checkout_error_color": "#ff6d6d",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
-          "menu": "main-menu",
-          "logo": "shopify:\/\/shop_images\/logowhitenew.png",
-          "logo_max_width": "350",
-          "show_announcement": true,
-          "announcement_text": "FREE Shipping on orders over $100!",
-          "announcement_link": ""
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 180,
+          "main_linklist": "simple-menu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#4a148c",
+          "color_text": "#ffffff"
         }
       },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter",
-              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
-              "width": "50%"
-            }
-          }
-        },
-        "block_order": [
-          "newsletter"
-        ],
+      "hero": {
+        "type": "hero",
         "settings": {
-          "social_enabled": true,
-          "show_payment_icons": false,
-          "legal_menu": ""
+          "image": "shopify:\/\/shop_images\/landing_page_1512x_7c5049bc-ae46-4198-b2f3-194f1860afd6.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large",
+          "title": "handcrafted and community focused",
+          "text": "",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections"
         }
       },
       "slideshow": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
-          "slide-0": {
+          "slideshow-0": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/landing_page-1_3709524f-5b22-4067-8159-2a5e9366559d.jpg",
-              "link": ""
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
             }
           },
-          "c36baa5e-d10a-4fe8-b154-a71ccd4e8b3f": {
+          "1492095993817": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/SoapLogSpiral.jpg",
-              "link": ""
-            }
-          },
-          "909d1600-c5a5-469b-854f-eb3ac47f6afe": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/lemongrass.jpg",
-              "link": ""
+              "alignment": "center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
         "block_order": [
-          "slide-0",
-          "c36baa5e-d10a-4fe8-b154-a71ccd4e8b3f",
-          "909d1600-c5a5-469b-854f-eb3ac47f6afe"
+          "slideshow-0",
+          "1492095993817"
         ],
         "settings": {
-          "slider_home_auto": true,
-          "slider_home_rate": "5000"
-        }
-      },
-      "collection-list": {
-        "type": "collection-list",
-        "disabled": true,
-        "blocks": {
-          "collection-list-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "baby-products"
-            }
-          },
-          "collection-list-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "moisturizers"
-            }
-          }
-        },
-        "block_order": [
-          "collection-list-0",
-          "collection-list-1"
-        ],
-        "settings": {}
-      },
-      "collection-row-1": {
-        "type": "collection-rows",
-        "settings": {
-          "title": "Handcrafted Soaps",
-          "home_featured_row": "soaps",
-          "grid": 4,
-          "rows": 1,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false
-        }
-      },
-      "collection-template": {
-        "type": "collection-template",
-        "settings": {
-          "grid": "4",
-          "rows": "5",
-          "collection_sidebar_filters": "tags",
-          "product_show_compare_at_price": false,
-          "product_show_saved_amount": false,
-          "product_reviews_enable": true,
-          "enable_sidebar": true
-        }
-      },
-      "1599605643882": {
-        "type": "featured-content",
-        "settings": {
-          "section_title": "Our Company",
-          "text": "<p>MoonDance Soaps is a small business located in Wake County, North Carolina owned by a group of four friends.  We manufacture quality cold-pressed soap made in small batches.  Vegetable oils, essential oils, fragrance oils, herbs, spices, goats milk &amp; honey combine for magical bar soaps.  Each bar is hand-cut,  then cured for 4-6 weeks before being packaged and sold. No animal testing is ever conducted.  We buy high quality ingredients.  We produce very little waste. We sell our products all over but are most honored to be a local resource. <\/p><p>Our products are a blend of art and science. We are merging old and new wisdom. <\/p><p>Our mission is to create quality products at a fair price that allow us to sustain our business practices. We pay our employees, serve our customers, buy from our community, and take care of our environment.<\/p>",
-          "text_size": "large"
-        }
-      },
-      "1599605694203": {
-        "type": "featured-content",
-        "disabled": true,
-        "settings": {
-          "section_title": "Contact Us",
-          "text": "<p>Got a question? Please contact us at <a href=\"mailto:info@moondancesoaps.com\">info@moondancesoaps.com<\/a> or call us at 1-877-762-7728 (1-877-SOAPS-2U)<\/p><p>For postal mail inquiries or shipments:<br\/>MoonDance Soaps & Sundries<br\/>13605 Old Creedmoor Rd<br\/>Wake Forest, NC 27587<\/p><p>If you're interested in receiving wholesale or private label information, click <a href=\"\/pages\/wholesale\" title=\"Wholesale and Private Labeling\">here.<\/a><\/p>",
-          "text_size": "large"
+          "slideshow_height": "medium",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
         }
       },
       "product-template": {
         "type": "product-template",
         "settings": {
-          "product_image_zoom_enable": false,
-          "product_quantity_enable": false,
-          "product_quantity_message": false,
-          "product_incoming_message": false,
-          "product_vendor_enable": false,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false,
-          "related_products_enable": false,
+          "show_quantity_selector": true,
+          "show_vendor": false,
           "enable_payment_button": true,
-          "social_sharing_products": true,
-          "product_reviews_enable": false,
-          "add_to_cart_button_size": "small"
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
         }
       },
-      "160676595072e4480c": {
-        "type": "collection-rows",
+      "collection-template": {
+        "type": "collection-template",
         "settings": {
-          "title": "Seasonal Specials",
-          "home_featured_row": "season-specials",
+          "layout": "grid",
           "grid": 4,
-          "rows": 1,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false
+          "rows": 4,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": true
+        }
+      },
+      "1492033924902": {
+        "type": "custom-content",
+        "blocks": {
+          "1492033924902-0": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><br\/>MoonDance Soaps is a small business, established 25 years ago in Wake County, North Carolina. We share a passion for being creators in our local community, creating products that blend art and science, and merging old wisdom with new. <br\/><br\/>Our mission is to create quality products, at a fair price, that allows us to sustain our business practices, pay our employees, serve our customers, buy from our community, and take care of our environment<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1492033924902-0"
+        ],
+        "settings": {
+          "title": "Our Company"
+        }
+      },
+      "1492096252560": {
+        "type": "collection-list",
+        "blocks": {
+          "1492096252560-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bar-soaps"
+            }
+          },
+          "1492096252560-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "outdoor"
+            }
+          },
+          "1492096252560-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "for-the-bath"
+            }
+          }
+        },
+        "block_order": [
+          "1492096252560-0",
+          "1492096252560-1",
+          "1492096252560-2"
+        ],
+        "settings": {
+          "title": "Our Products",
+          "grid": 3
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick Links",
+              "menu": "footer"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f8f8f8",
+          "color_footer_text": "#6d6d6d",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "1631296526d2b2c358": {
+        "type": "feature-columns",
+        "blocks": {
+          "1631296526d2b2c358-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "Durham Farmers Market",
+              "text": "<p>501 Foster Street<br\/>Durham, NC 27701<\/p><p>Saturday 8am - 12pm<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1631296526d2b2c358-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "Wake Forest Farmers Market",
+              "text": "<p>235 S Taylor St<br\/>Wake Forest, NC 27587<br\/><br\/>Saturday 8am - 12pm<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1631296526d2b2c358-0",
+          "1631296526d2b2c358-1"
+        ],
+        "settings": {
+          "title": "Locations",
+          "align_text": "left"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
         }
       }
     },
     "content_for_index": [
-      "slideshow",
-      "collection-row-1",
-      "160676595072e4480c",
-      "1599605643882",
-      "1599605694203"
+      "hero",
+      "1492096252560",
+      "1492033924902",
+      "1631296526d2b2c358"
     ]
   },
   "presets": {
-    "Blue": {
-      "ajax_cart_method": "modal",
-      "cart_notes_enable": false,
-      "collection_sidebar_filters": "tags",
-      "color_accent": "#dd2525",
-      "color_body_bg": "#fff",
-      "color_body_text": "#585858",
-      "color_borders": "#ececec",
-      "color_footer_bg": "#f2f2f2",
-      "color_footer_social_link": "#bbbbbb",
-      "color_footer_text": "#636363",
-      "color_header_background": "#182e49",
-      "color_header_cart_search": "#0f243d",
-      "color_header_text": "#fff",
-      "color_heading_text": "#000",
-      "color_nav_bg": "#182e49",
-      "color_nav_text": "#fff",
-      "color_primary": "#528ec1",
-      "color_secondary": "#dcdcdc",
-      "share_facebook": true,
-      "share_pinterest": true,
-      "share_twitter": true,
-      "social_facebook_link": "",
-      "social_fancy_link": "",
-      "social_google_plus_link": "",
-      "social_instagram_link": "",
-      "social_pinterest_link": "",
-      "social_sharing_style": "is-normal",
-      "social_snapchat_link": "",
-      "social_tumblr_link": "",
-      "social_twitter_link": "",
-      "social_vimeo_link": "",
-      "social_youtube_link": "",
-      "type_accent_font": "montserrat_n5",
-      "type_base_font": "montserrat_n5",
-      "type_base_size": "13px",
-      "type_button_size": "14px",
-      "type_button_transform": true,
-      "type_header_font": "montserrat_n7",
-      "type_header_transform": true,
-      "type_navigation_size": "14px",
-      "type_navigation_transform": true,
-      "superscript_decimals": true,
+    "Default": {
       "sections": {
         "header": {
           "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
           "settings": {
-            "logo": "",
-            "logo_max_width": "305"
+            "hero_size": "large",
+            "text_size": "large"
           }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
         },
         "footer": {
           "type": "footer",
           "blocks": {
-            "menu": {
-              "type": "menu",
-              "settings": {
-                "title": "Quick links",
-                "menu": "",
-                "width": "16%"
-              }
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
             },
-            "text": {
-              "type": "text",
-              "settings": {
-                "title": "Get in touch",
-                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
-                "width": "50%"
-              }
-            },
-            "newsletter": {
+            "footer-1": {
               "type": "newsletter",
-              "settings": {
-                "title": "Newsletter",
-                "width": "33%"
-              }
+              "settings": {}
             }
           },
           "block_order": [
-            "menu",
-            "text",
-            "newsletter"
+            "footer-0",
+            "footer-1"
           ],
           "settings": {
-            "social_enabled": false,
-            "legal_menu": ""
-          }
-        },
-        "slideshow": {
-          "type": "slideshow",
-          "blocks": {
-            "slide-0": {
-              "type": "image",
-              "settings": {
-                "slide": "",
-                "link": ""
-              }
-            },
-            "slide-1": {
-              "type": "image",
-              "settings": {
-                "slide": "",
-                "link": ""
-              }
-            },
-            "slide-2": {
-              "type": "image",
-              "settings": {
-                "slide": "",
-                "link": ""
-              }
-            }
-          },
-          "block_order": [
-            "slide-0",
-            "slide-1",
-            "slide-2"
-          ],
-          "settings": {
-            "slider_home_auto": false,
-            "slider_home_rate": "5000"
-          }
-        },
-        "collection-list": {
-          "type": "collection-list",
-          "blocks": {
-            "collection-list-0": {
-              "type": "collection",
-              "settings": {
-                "collection": ""
-              }
-            },
-            "collection-list-1": {
-              "type": "collection",
-              "settings": {
-                "collection": ""
-              }
-            }
-          },
-          "block_order": [
-            "collection-list-0",
-            "collection-list-1"
-          ],
-          "settings": {}
-        },
-        "collection-row-1": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
-          }
-        },
-        "collection-row-2": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
-          }
-        },
-        "collection-row-3": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
+            "show_payment_icons": true
           }
         }
       },
       "content_for_index": [
-        "slideshow",
-        "collection-list",
-        "collection-row-1",
-        "collection-row-2",
-        "collection-row-3"
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
       ]
     },
     "Light": {
-      "ajax_cart_method": "modal",
-      "cart_notes_enable": false,
-      "collection_sidebar_filters": "tags",
-      "color_accent": "#545454",
-      "color_body_bg": "#f3f3f3",
-      "color_body_text": "#858585",
-      "color_borders": "#dedede",
-      "color_footer_bg": "#ffffff",
-      "color_footer_social_link": "#545454",
-      "color_footer_text": "#545454",
-      "color_header_background": "#ffffff",
-      "color_header_cart_search": "#f3f3f3",
-      "color_header_text": "#545454",
-      "color_heading_text": "#2f2f2f",
-      "color_nav_bg": "#9c756f",
-      "color_nav_text": "#ffffff",
-      "color_primary": "#9c756f",
-      "color_secondary": "#f3f3f3",
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
       "share_facebook": true,
-      "share_pinterest": true,
       "share_twitter": true,
-      "social_facebook_link": "",
-      "social_google_plus_link": "",
-      "social_instagram_link": "",
-      "social_sharing_style": "is-normal",
+      "share_pinterest": true,
       "social_twitter_link": "",
-      "type_accent_font": "lato_n7",
-      "type_base_font": "roboto_n4",
-      "type_base_size": "14px",
-      "type_button_size": "14px",
-      "type_button_transform": true,
-      "type_header_font": "times_new_roman_n7",
-      "type_header_transform": false,
-      "type_navigation_size": "14px",
-      "type_navigation_transform": true,
-      "superscript_decimals": true,
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
       "sections": {
         "header": {
           "type": "header",
           "settings": {
+            "align_logo": "left",
             "logo": "",
-            "logo_max_width": "305"
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
           }
         },
-        "footer": {
-          "type": "footer",
-          "blocks": {
-            "menu": {
-              "type": "menu",
-              "settings": {
-                "title": "Quick links",
-                "menu": "",
-                "width": "16%"
-              }
-            },
-            "text": {
-              "type": "text",
-              "settings": {
-                "title": "Get in touch",
-                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
-                "width": "50%"
-              }
-            },
-            "newsletter": {
-              "type": "newsletter",
-              "settings": {
-                "title": "Newsletter",
-                "width": "33%"
-              }
-            }
-          },
-          "block_order": [
-            "menu",
-            "text",
-            "newsletter"
-          ],
+        "hero": {
+          "type": "hero",
           "settings": {
-            "social_enabled": false,
-            "legal_menu": ""
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
           }
         },
         "slideshow": {
           "type": "slideshow",
           "blocks": {
-            "slide-0": {
+            "slideshow-0": {
               "type": "image",
               "settings": {
-                "slide": "",
-                "link": ""
-              }
-            }
-          },
-          "block_order": [
-            "slide-0"
-          ],
-          "settings": {
-            "slider_home_auto": false,
-            "slider_home_rate": "5000"
-          }
-        },
-        "collection-list": {
-          "type": "collection-list",
-          "blocks": {
-            "collection-list-0": {
-              "type": "collection",
-              "settings": {
-                "collection": ""
+                "image": "",
+                "alignment": "center center"
               }
             },
-            "collection-list-1": {
-              "type": "collection",
-              "settings": {
-                "collection": ""
-              }
-            }
-          },
-          "block_order": [
-            "collection-list-0",
-            "collection-list-1"
-          ],
-          "settings": {}
-        },
-        "collection-row-1": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
-          }
-        },
-        "collection-row-2": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
-          }
-        },
-        "collection-row-3": {
-          "type": "collection-rows",
-          "settings": {
-            "home_featured_row": "",
-            "grid": 4,
-            "rows": 1
-          }
-        },
-        "featured-content": {
-          "type": "featured-content",
-          "settings": {}
-        },
-        "slideshow-2": {
-          "type": "slideshow",
-          "blocks": {
-            "slideshow-2-0": {
+            "1492095993817": {
               "type": "image",
               "settings": {
-                "slide": "",
-                "link": ""
+                "image": "",
+                "alignment": "center"
               }
             }
           },
           "block_order": [
-            "slideshow-2-0"
+            "slideshow-0",
+            "1492095993817"
           ],
           "settings": {
-            "slider_home_auto": false,
-            "slider_home_rate": "5000"
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
           }
         }
       },
       "content_for_index": [
+        "hero",
+        "featured-collections",
         "slideshow",
-        "collection-list",
-        "collection-row-1",
-        "collection-row-2",
-        "collection-row-3",
-        "slideshow-2",
-        "featured-content"
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
       ]
     }
   }
